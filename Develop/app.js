@@ -15,9 +15,6 @@ const render = require("./lib/htmlRenderer");
 // and to create objects for each team member (using the correct classes as blueprints!)
 let employees = []
 
-
-
-
 addIntern = () => {
     inquirer.prompt([
         {
