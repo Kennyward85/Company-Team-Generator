@@ -19,7 +19,7 @@ Creating a team profile generater using class constructors
 7:Once the team has been built the program will then have the option to select None to end and render the information to an HTML displaying the information
 
 # Links
-
-
+https://kennyward85.github.io/Company-Team-Generator/.
+https://github.com/Kennyward85/Company-Team-Generator/tree/master/Develop
 
 # Screenshot
