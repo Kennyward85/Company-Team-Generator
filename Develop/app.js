@@ -41,7 +41,7 @@ addIntern = () => {
         }
     ])
         .then(answers => {
-            const intern = new Intern(answers.name, answers.email, answers.id, answers.school);
+            const intern = new Intern(answers.name, answers.id, answers.email, answers.school);
             employees.push(intern)
             selectEmployeeType()
         })
@@ -73,7 +73,7 @@ addManager = () => {
         }
     ])
         .then(answers => {
-            const manager = new Manager(answers.name, answers.email, answers.id, answers.officenumber);
+            const manager = new Manager(answers.name, answers.id, answers.email, answers.officenumber);
             employees.push(manager)
             selectEmployeeType()
         })
@@ -105,7 +105,7 @@ addEngineer = () => {
         }
     ])
         .then(answers => {
-            const engineer = new Engineer(answers.name, answers.email, answers.id, answers.github);
+            const engineer = new Engineer(answers.name, answers.id, answers.email, answers.github);
             employees.push(engineer)
             selectEmployeeType()
         })

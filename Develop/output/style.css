@@ -1,0 +1,24 @@
+.jumbotron {
+    background: #49494b;
+    
+}
+h1 {
+font-size: 50px;  
+font-family: fantasy;  
+}
+
+li {
+    color: red;
+}
+
+.card-header {
+    background: red;
+}
+
+.card-body {
+    background: lightgray;
+}
+
+body{
+    background: rgb(253, 250, 250);
+}
